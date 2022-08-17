@@ -4,3 +4,6 @@
 
 execute if entity @a[ tag = !bossbar ] run bossbar set players:timer players @a
 tag @a[ tag = !bossbar ] add bossbar
+
+#loop:
+schedule function timer:add_tag 15s
