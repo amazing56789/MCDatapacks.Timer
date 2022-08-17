@@ -12,7 +12,7 @@ execute if score %oneseconds players.time matches ..-1 run scoreboard players re
 execute if score %oneseconds players.time matches ..-1 run scoreboard players set %oneseconds players.time 9
 
 execute if score %tenseconds players.time matches ..-1 run scoreboard players remove %minutes players.time 1
-execute if score %oneseconds players.time matches ..-1 run scoreboard players set %tenseconds players.time 9
+execute if score %oneseconds players.time matches ..-1 run scoreboard players set %tenseconds players.time 5
 
 
 #loop:
